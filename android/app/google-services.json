@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1081575068474",
+    "project_id": "rental-app-ad355",
+    "storage_bucket": "rental-app-ad355.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1081575068474:android:c8fa7ab267e38a47037603",
+        "android_client_info": {
+          "package_name": "in.rentride.rent_ride"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgrEaBuOM9sNvz4KIyPkgB2cU_tEF9KwE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

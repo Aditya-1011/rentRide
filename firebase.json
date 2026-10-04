@@ -1,0 +1,43 @@
+{
+  "firestore": {
+    "rules": "firestore.rules",
+    "database": "rentride",
+    "edition": "enterprise",
+    "location": "asia-south1"
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "rental-app-ad355",
+          "appId": "1:1081575068474:android:c8fa7ab267e38a47037603",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "rental-app-ad355",
+          "appId": "1:1081575068474:ios:ff1720bb2c89c75c037603",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "rental-app-ad355",
+          "configurations": {
+            "android": "1:1081575068474:android:c8fa7ab267e38a47037603",
+            "ios": "1:1081575068474:ios:ff1720bb2c89c75c037603"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "authentication",
+      "runtime": "nodejs22"
+    }
+  ]
+}
